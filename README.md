@@ -30,15 +30,12 @@ GIVEN I need a new, secure password
 ## Mock-Up
 The following image shows the web application's appearance and functionality:
 ![Mockup Image](assets/images/screen-1.png)
-
 ![Mockup Image](assets/images/screen-2.png)
-
 ![Mockup Image](assets/images/screen-3.png)
-
 ![Mockup Image](assets/images/screen-4.png)
-
 ![Mockup Image](assets/images/screen-5.png)
-
 ![Mockup Image](assets/images/screen-6.png)
-
 ![Mockup Image](assets/images/screen-7.png)
+
+## Website
+!https://dan13l80.github.io/Password-Generator/
