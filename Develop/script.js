@@ -50,11 +50,30 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  var text = '';
+  // function questions allows for the prompt to loop back if a value less than 8 or greater than 128 was chosen
+  function questions() {
+    var passwordLength = prompt("How long would you like your password to be? Please choose a number between 8 characters to 128 characters.");
+    if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
+      characterTypes()
+      //
+      for (let i = 0; i < passwordLength; i++) {
+        let x = passString[Math.floor(Math.random() * passString.length)]
+        passResult += x;
+      }
+      console.log(passResult);
+      console.log(textArea);
+      text = document.createTextNode(passResult);
+      //removes old password in the instance "generate password" was clicked after the first was made
+      textArea.innerHTML = '';
+      textArea.appendChild(text);
+      passResult = '';
 
-  passwordText.value = password;
+    };
 
+
+  }
+  questions()
 }
 
 // Add event listener to generate button
