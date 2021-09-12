@@ -29,8 +29,8 @@ SO THAT I can create a strong password that provides greater security
 
 # Mock-Up
 The following image shows the web application's appearance and functionality:
-https://github.com/dan13l80/Password-Generator/blob/main/assets/images/screen-1.png
-https://github.com/dan13l80/Password-Generator/blob/main/assets/images/screen-2.png
+    https://github.com/dan13l80/Password-Generator/blob/main/assets/images/screen-1.png
+    https://github.com/dan13l80/Password-Generator/blob/main/assets/images/screen-2.png
 https://github.com/dan13l80/Password-Generator/blob/main/assets/images/screen-3.png
 https://github.com/dan13l80/Password-Generator/blob/main/assets/images/screen-4.png
 https://github.com/dan13l80/Password-Generator/blob/main/assets/images/screen-5.png
