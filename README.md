@@ -38,4 +38,4 @@ The following image shows the web application's appearance and functionality:
 ![Mockup Image](assets/images/screen-7.png)
 
 ## Website
-!https://dan13l80.github.io/Password-Generator/
+[Password Generator](https://dan13l80.github.io/Password-Generator/)
