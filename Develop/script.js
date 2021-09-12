@@ -76,5 +76,7 @@ function writePassword() {
   questions()
 }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// Write Password now with the generate password button
+generateBtn.addEventListener("click", () => {
+  writePassword();
+});
